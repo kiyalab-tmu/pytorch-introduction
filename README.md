@@ -14,14 +14,15 @@ git clone https://github.com/kiyalab-tmu/pytorch-introduction.git
 
 ## Python 3系のインストール
 - Python 2系の利用はもうやめましょう
+- **Windowsの人にはWSL2の利用を強くおすすめします**
 - 通常インストール (Windows)
-	1. [Python 公式](https://python.org) から 64bit 版 Python インストーラをダウンロード
-	1. customize installation で、Add Python to environment variables にチェックをいれてインストール
-	1. PowerShell で `python -V` が実行できることを確認
+  1. [Python 公式](https://python.org) から 64bit 版 Python インストーラをダウンロード
+  1. customize installation で、Add Python to environment variables にチェックをいれてインストール
+  1. PowerShell で `python -V` が実行できることを確認
 
 - Anaconda を使用したインストール (Windows)
-	1. [Anaconda 公式](https://www.anaconda.com/download) から 64bit 版インストーラをダウンロード、インストール
-	1. Anaoncda PowerShell Prompt で `python -V` が実行できることを確認
+  1. [Anaconda 公式](https://www.anaconda.com/download) から 64bit 版インストーラをダウンロード、インストール
+  1. Anaoncda PowerShell Prompt で `python -V` が実行できることを確認
 
 ## 仮想環境の作成
 - 以下，任意の仮想環境名を venv_name とする (例えば venv など，自分で決める)
