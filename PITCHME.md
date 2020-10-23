@@ -64,14 +64,14 @@ Yuma Kinoshita
   - 全世界に公開されるので個人情報には注意
 
 - アカウントができたら
-  [Ono Lab @ TMU](https://github.com/onolab-tmu/)に参加
+  [kiyalab-tmu](https://github.com/kiyalab-tmu/)に参加
 
 +++
 
 ### リポジトリをクローンする
 #### リポジトリとは？
 - バージョン管理を行う基本単位
-- onolab-tmu/pytorch-introductionというリポジトリで，
+- kiyalab-tmu/pytorch-introductionというリポジトリで，
   この勉強会用のファイルのバージョン管理を行っている
 
 +++
@@ -90,6 +90,7 @@ Yuma Kinoshita
 +++
 
 ### Python3のインストール
+- 現在の最新バージョンは3.9
 - Windows
   - [公式ページ](https://www.python.org/)
     のインストーラーを実行
@@ -122,7 +123,7 @@ Yuma Kinoshita
   ```
   $ cd hogehoge/pytorch-introduction/
   ```
-1. virtualenvを使ってpython 3.6の環境を作る
+1. virtualenvを使ってpython 3.9の環境を作る
   ```
   $ python3 -m venv venv
   ```

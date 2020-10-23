@@ -1,11 +1,11 @@
 # pytorch-introduction
 
 # スライド
-- [Slide](https://gitpitch.com/onolab-tmu/pytorch-introduction)
+- [Slide](https://gitpitch.com/kiyalab-tmu/pytorch-introduction)
 
 # このリポジトリのクローン
 ```
-git clone https://github.com/popura/pytorch-introduction.git
+git clone https://github.com/kiyalab-tmu/pytorch-introduction.git
 ```
 
 # 準備
@@ -58,9 +58,9 @@ git clone https://github.com/popura/pytorch-introduction.git
 		- torch (PyTorch本体), torchvision (画像処理用パッケージ) がインストールされる
 		- 仮想環境を作っている人は仮想環境を有効にしてから
 
-- 通常環境 + GPUなし (2020.05.13 時点)
+- 通常環境 + GPUなし (2020.10.23 時点)
 	```
-	% pip install torch==1.5.0+cpu torchvision==0.6.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
+	% pip install torch==1.6.0+cpu torchvision==0.7.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
 	```
 
 - Anaconda 環境 + GPUなし
